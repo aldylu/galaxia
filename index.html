@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>From Luján to Mia 🌻</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Pantalla de inicio -->
+    <div id="start-screen">
+
+        <div class="start-content">
+
+            <div class="small-flower">🌻</div>
+
+            <h1>From Luján to Mia</h1>
+
+            <p>
+                A little galaxy made with love
+            </p>
+
+            <button id="start-button">
+                Enter the galaxy ✨
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Canvas donde Three.js dibuja la galaxia -->
+    <canvas id="galaxy"></canvas>
+
+
+    <!-- Frase central -->
+    <div id="center-message">
+
+        <div class="main-title">
+            From Luján to Mia
+        </div>
+
+        <div class="main-flower">
+            🌻
+        </div>
+
+    </div>
+
+
+    <!-- Mensaje que aparece durante el viaje -->
+    <div id="message-container">
+
+        <div id="message-card">
+
+            <div id="thai-text"></div>
+
+            <div id="spanish-text"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Indicaciones -->
+    <div id="instructions">
+
+        <span>← →</span>
+        Deslizá para explorar
+
+    </div>
+
+
+    <!-- Contador -->
+    <div id="counter">
+        0 / 9
+    </div>
+
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
